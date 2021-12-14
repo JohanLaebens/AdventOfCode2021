@@ -124,13 +124,13 @@ public class Day14b {
 
 
     private String getCharForNumber(int i) {
-        return String.valueOf((char) (i + 64));
+        return String.valueOf((char) (i + 65));
     }
 
     private int getNumberForChar(String c) {
         char character = c.charAt(0); // This gives the character 'a'
         int ascii = (int) character; // ascii is now 97.
-        return (ascii - 64);
+        return (ascii - 65);
     }
 
     private void readfile(String filename) {
